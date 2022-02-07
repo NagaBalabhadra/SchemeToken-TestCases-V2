@@ -17,16 +17,17 @@
                 {
                   "listen": "prerequest",
                   "script": {
+                    "id": "e3001c4c-141f-407a-affa-0f711a155dc9",
                     "exec": [
                       ""
                     ],
-                    "type": "text/javascript",
-                    "id": "e3001c4c-141f-407a-affa-0f711a155dc9"
+                    "type": "text/javascript"
                   }
                 },
                 {
                   "listen": "test",
                   "script": {
+                    "id": "64622918-d131-48dd-bd22-f538d4d7033a",
                     "exec": [
                       "const jsonData= pm.response.json();\r",
                       " \r",
@@ -42,12 +43,11 @@
                       "});\r",
                       ""
                     ],
-                    "type": "text/javascript",
-                    "id": "64622918-d131-48dd-bd22-f538d4d7033a"
+                    "type": "text/javascript"
                   }
                 }
               ],
-              "_postman_id": "5c28a64f-b818-48cd-8092-218ab69f22c9",
+              "id": "5c28a64f-b818-48cd-8092-218ab69f22c9",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -62,7 +62,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{ \r\n\t\"shopperId\": \"{{$randomInt}}{{$timestamp}}\",\r\n    \"username\": \"{{$timestamp}}\"\r\n}",
+                  "raw": "{ \r\n\t\"shopperId\": \"\",\r\n    \"username\": \"{{$timestamp}}\"\r\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -122,7 +122,7 @@
                   }
                 }
               ],
-              "_postman_id": "ef9cf403-5f5e-4452-a251-97632cec631f",
+              "id": "ef9cf403-5f5e-4452-a251-97632cec631f",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -176,7 +176,7 @@
                   }
                 }
               ],
-              "_postman_id": "03fe9b5d-8740-439f-a6f9-1b9a464f4503",
+              "id": "03fe9b5d-8740-439f-a6f9-1b9a464f4503",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -244,7 +244,7 @@
                   }
                 }
               ],
-              "_postman_id": "37374157-bae0-4a41-9959-a4c2a4d830bf",
+              "id": "37374157-bae0-4a41-9959-a4c2a4d830bf",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -323,7 +323,7 @@
                   }
                 }
               ],
-              "_postman_id": "8a761a68-62e6-43d1-8b4b-5d24d75ed11c",
+              "id": "8a761a68-62e6-43d1-8b4b-5d24d75ed11c",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -355,8 +355,7 @@
               "response": []
             }
           ],
-          "_postman_id": "1eaa7003-d83a-47de-87a6-aabaa22705c7",
-          "_postman_isSubFolder": true
+          "id": "1eaa7003-d83a-47de-87a6-aabaa22705c7"
         },
         {
           "name": "Add Card -My Account Page (Verify=True)",
@@ -396,7 +395,7 @@
                   }
                 }
               ],
-              "_postman_id": "e1ebbb8d-5513-4003-8983-b5d73687eaec",
+              "id": "e1ebbb8d-5513-4003-8983-b5d73687eaec",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -470,7 +469,7 @@
                   }
                 }
               ],
-              "_postman_id": "12c042e2-b7a0-45c0-8812-5d68ca412351",
+              "id": "12c042e2-b7a0-45c0-8812-5d68ca412351",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -524,7 +523,7 @@
                   }
                 }
               ],
-              "_postman_id": "0f764132-2c3d-45dd-b3f6-b5b0a1030785",
+              "id": "0f764132-2c3d-45dd-b3f6-b5b0a1030785",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -592,7 +591,7 @@
                   }
                 }
               ],
-              "_postman_id": "a809fad0-e470-4427-8189-2a46a58c4d43",
+              "id": "a809fad0-e470-4427-8189-2a46a58c4d43",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -664,7 +663,7 @@
                   }
                 }
               ],
-              "_postman_id": "e37d680b-0879-414a-a95a-7c9a3a5bc3d3",
+              "id": "e37d680b-0879-414a-a95a-7c9a3a5bc3d3",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -696,8 +695,7 @@
               "response": []
             }
           ],
-          "_postman_id": "a234fddc-06a3-4be7-a3af-07349924e17f",
-          "_postman_isSubFolder": true
+          "id": "a234fddc-06a3-4be7-a3af-07349924e17f"
         },
         {
           "name": "Add card - My Account Page (Duplicate Card with Verify=False)",
@@ -731,7 +729,7 @@
                   }
                 }
               ],
-              "_postman_id": "2896b4ff-dd7d-436b-a54f-039afa4f5b33",
+              "id": "2896b4ff-dd7d-436b-a54f-039afa4f5b33",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -824,7 +822,7 @@
                   }
                 }
               ],
-              "_postman_id": "f9d497a8-df4e-4c7d-841c-b5d9750db16d",
+              "id": "f9d497a8-df4e-4c7d-841c-b5d9750db16d",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -893,7 +891,7 @@
                   }
                 }
               ],
-              "_postman_id": "4f687af8-279d-434c-8a8d-88f708c9ac95",
+              "id": "4f687af8-279d-434c-8a8d-88f708c9ac95",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -966,7 +964,7 @@
                   }
                 }
               ],
-              "_postman_id": "d21a757c-7f35-459a-b75e-69ae6f09b3bc",
+              "id": "d21a757c-7f35-459a-b75e-69ae6f09b3bc",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1033,7 +1031,7 @@
                   }
                 }
               ],
-              "_postman_id": "38f8965a-28e5-42be-8561-170df2c22ce2",
+              "id": "38f8965a-28e5-42be-8561-170df2c22ce2",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1102,7 +1100,7 @@
                   }
                 }
               ],
-              "_postman_id": "3ee00644-719e-4e7d-a420-c4359e595f33",
+              "id": "3ee00644-719e-4e7d-a420-c4359e595f33",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1179,7 +1177,7 @@
                   }
                 }
               ],
-              "_postman_id": "f6366ba8-328e-42c4-8151-abfed1cda732",
+              "id": "f6366ba8-328e-42c4-8151-abfed1cda732",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1211,8 +1209,7 @@
               "response": []
             }
           ],
-          "_postman_id": "2bbb658b-5552-426c-8543-9126bb868e60",
-          "_postman_isSubFolder": true
+          "id": "2bbb658b-5552-426c-8543-9126bb868e60"
         },
         {
           "name": "Add card - My Account Page (Duplicate Card with different expiry)",
@@ -1246,7 +1243,7 @@
                   }
                 }
               ],
-              "_postman_id": "f36c0ff6-aba6-4863-bf11-f2171f24f9d9",
+              "id": "f36c0ff6-aba6-4863-bf11-f2171f24f9d9",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1339,7 +1336,7 @@
                   }
                 }
               ],
-              "_postman_id": "591950f7-ddb7-4523-a200-588277d0707a",
+              "id": "591950f7-ddb7-4523-a200-588277d0707a",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1408,7 +1405,7 @@
                   }
                 }
               ],
-              "_postman_id": "965920e6-46b9-4bb7-b6ee-23b4b7153e43",
+              "id": "965920e6-46b9-4bb7-b6ee-23b4b7153e43",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1483,7 +1480,7 @@
                   }
                 }
               ],
-              "_postman_id": "e31dfab6-c8f8-4be3-839e-ad77dfe5f4ee",
+              "id": "e31dfab6-c8f8-4be3-839e-ad77dfe5f4ee",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1550,7 +1547,7 @@
                   }
                 }
               ],
-              "_postman_id": "574184c4-562e-4119-a98c-d1212711ec64",
+              "id": "574184c4-562e-4119-a98c-d1212711ec64",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1619,7 +1616,7 @@
                   }
                 }
               ],
-              "_postman_id": "6dbcc585-116b-4b96-a6f2-5e539942ff3d",
+              "id": "6dbcc585-116b-4b96-a6f2-5e539942ff3d",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1700,7 +1697,7 @@
                   }
                 }
               ],
-              "_postman_id": "04e7f8c6-631d-478a-84e8-929fac91a454",
+              "id": "04e7f8c6-631d-478a-84e8-929fac91a454",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1732,8 +1729,7 @@
               "response": []
             }
           ],
-          "_postman_id": "92a4ea2f-4e7f-4ff3-a1a2-7c0db5011f0d",
-          "_postman_isSubFolder": true
+          "id": "92a4ea2f-4e7f-4ff3-a1a2-7c0db5011f0d"
         },
         {
           "name": "Add card - My Account Page (Duplicate Card with Verify=True)",
@@ -1767,7 +1763,7 @@
                   }
                 }
               ],
-              "_postman_id": "36f64f4a-64d2-466c-ba54-8917e600bd29",
+              "id": "36f64f4a-64d2-466c-ba54-8917e600bd29",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1861,7 +1857,7 @@
                   }
                 }
               ],
-              "_postman_id": "d6242f96-065e-4710-b904-7d4314826e52",
+              "id": "d6242f96-065e-4710-b904-7d4314826e52",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -1930,7 +1926,7 @@
                   }
                 }
               ],
-              "_postman_id": "c7f4d223-a076-43e5-b23a-43518ba122d0",
+              "id": "c7f4d223-a076-43e5-b23a-43518ba122d0",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2005,7 +2001,7 @@
                   }
                 }
               ],
-              "_postman_id": "6ed6a8e0-e0f1-471d-8c65-af70b1f59e99",
+              "id": "6ed6a8e0-e0f1-471d-8c65-af70b1f59e99",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2072,7 +2068,7 @@
                   }
                 }
               ],
-              "_postman_id": "aa12169a-2cd6-4593-a506-028da1440c35",
+              "id": "aa12169a-2cd6-4593-a506-028da1440c35",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2141,7 +2137,7 @@
                   }
                 }
               ],
-              "_postman_id": "ca8bc35b-5c16-4f97-a240-5dc86a90fbb1",
+              "id": "ca8bc35b-5c16-4f97-a240-5dc86a90fbb1",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2216,7 +2212,7 @@
                   }
                 }
               ],
-              "_postman_id": "6291725e-e014-4ff1-94af-4e7a179d213f",
+              "id": "6291725e-e014-4ff1-94af-4e7a179d213f",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2291,7 +2287,7 @@
                   }
                 }
               ],
-              "_postman_id": "d679f5ff-fae4-45b8-99a8-f28ac09699a1",
+              "id": "d679f5ff-fae4-45b8-99a8-f28ac09699a1",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2344,8 +2340,7 @@
               "response": []
             }
           ],
-          "_postman_id": "51b4a7e4-480e-49ef-b764-9ba5b2159e65",
-          "_postman_isSubFolder": true
+          "id": "51b4a7e4-480e-49ef-b764-9ba5b2159e65"
         },
         {
           "name": "Update Card Details (expiry date)",
@@ -2386,7 +2381,7 @@
                   }
                 }
               ],
-              "_postman_id": "82734da2-b41c-4701-b7f6-2d9f9cb2608f",
+              "id": "82734da2-b41c-4701-b7f6-2d9f9cb2608f",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2459,7 +2454,7 @@
                   }
                 }
               ],
-              "_postman_id": "b3c019b1-ed90-4304-94c3-5fa91fe6c00e",
+              "id": "b3c019b1-ed90-4304-94c3-5fa91fe6c00e",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2513,7 +2508,7 @@
                   }
                 }
               ],
-              "_postman_id": "efb524eb-1930-41cb-b447-820ec342721c",
+              "id": "efb524eb-1930-41cb-b447-820ec342721c",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2581,7 +2576,7 @@
                   }
                 }
               ],
-              "_postman_id": "732d8552-0241-470d-aff1-b93a6573d95c",
+              "id": "732d8552-0241-470d-aff1-b93a6573d95c",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2655,7 +2650,7 @@
                   }
                 }
               ],
-              "_postman_id": "609c0e1f-8d7b-4394-b372-c973a9cdccbb",
+              "id": "609c0e1f-8d7b-4394-b372-c973a9cdccbb",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2723,7 +2718,7 @@
                   }
                 }
               ],
-              "_postman_id": "d2a62852-f928-405c-9916-0753f3f3afd4",
+              "id": "d2a62852-f928-405c-9916-0753f3f3afd4",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2790,7 +2785,7 @@
                   }
                 }
               ],
-              "_postman_id": "b5599f19-0430-4e83-ab05-d82742acf3e3",
+              "id": "b5599f19-0430-4e83-ab05-d82742acf3e3",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2865,7 +2860,7 @@
                   }
                 }
               ],
-              "_postman_id": "4527ca2f-dc52-4437-bd73-d2fc8cf03789",
+              "id": "4527ca2f-dc52-4437-bd73-d2fc8cf03789",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2933,7 +2928,7 @@
                   }
                 }
               ],
-              "_postman_id": "3face20f-a0ed-47ed-8f52-90ed463a3962",
+              "id": "3face20f-a0ed-47ed-8f52-90ed463a3962",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -2965,8 +2960,7 @@
               "response": []
             }
           ],
-          "_postman_id": "7b7a037a-a068-4a2f-bb4b-64df4a1e4c6e",
-          "_postman_isSubFolder": true
+          "id": "7b7a037a-a068-4a2f-bb4b-64df4a1e4c6e"
         },
         {
           "name": "Update Card Details (cvv)",
@@ -3007,7 +3001,7 @@
                   }
                 }
               ],
-              "_postman_id": "67d55e8a-4ac4-4e5c-9db5-13003318e5dd",
+              "id": "67d55e8a-4ac4-4e5c-9db5-13003318e5dd",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3080,7 +3074,7 @@
                   }
                 }
               ],
-              "_postman_id": "053b6e61-0c59-4dea-9442-5fd390612fa4",
+              "id": "053b6e61-0c59-4dea-9442-5fd390612fa4",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3134,7 +3128,7 @@
                   }
                 }
               ],
-              "_postman_id": "ce6f382b-8ea7-408d-b185-b3ae5b8fea31",
+              "id": "ce6f382b-8ea7-408d-b185-b3ae5b8fea31",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3202,7 +3196,7 @@
                   }
                 }
               ],
-              "_postman_id": "cc8610fc-9ecd-461f-a085-3a60c13f221d",
+              "id": "cc8610fc-9ecd-461f-a085-3a60c13f221d",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3276,7 +3270,7 @@
                   }
                 }
               ],
-              "_postman_id": "8345a132-fb41-48ea-9d3f-abc63f02419f",
+              "id": "8345a132-fb41-48ea-9d3f-abc63f02419f",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3344,7 +3338,7 @@
                   }
                 }
               ],
-              "_postman_id": "51dddb06-c9c0-404b-a7ff-d47f81de9646",
+              "id": "51dddb06-c9c0-404b-a7ff-d47f81de9646",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3411,7 +3405,7 @@
                   }
                 }
               ],
-              "_postman_id": "b96d3e71-5b48-4eb0-b90f-fd9559d09687",
+              "id": "b96d3e71-5b48-4eb0-b90f-fd9559d09687",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3486,7 +3480,7 @@
                   }
                 }
               ],
-              "_postman_id": "c88c25ea-52a4-4047-a48a-b5c4da374909",
+              "id": "c88c25ea-52a4-4047-a48a-b5c4da374909",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3554,7 +3548,7 @@
                   }
                 }
               ],
-              "_postman_id": "a28610fc-e214-4610-a265-2656fa419f87",
+              "id": "a28610fc-e214-4610-a265-2656fa419f87",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3586,8 +3580,7 @@
               "response": []
             }
           ],
-          "_postman_id": "9be82edf-898c-4e64-b80d-0f1409e1230a",
-          "_postman_isSubFolder": true
+          "id": "9be82edf-898c-4e64-b80d-0f1409e1230a"
         },
         {
           "name": "Check out flow - New Card Place Order",
@@ -3627,7 +3620,7 @@
                   }
                 }
               ],
-              "_postman_id": "86bc685e-7512-468b-ab6c-8cd4dc0ef66b",
+              "id": "86bc685e-7512-468b-ab6c-8cd4dc0ef66b",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3700,7 +3693,7 @@
                   }
                 }
               ],
-              "_postman_id": "148c4328-21c0-4aa7-9a7c-90bf4d8dc506",
+              "id": "148c4328-21c0-4aa7-9a7c-90bf4d8dc506",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3754,7 +3747,7 @@
                   }
                 }
               ],
-              "_postman_id": "15e4f1cc-789c-4a97-bdd2-72afc2640fd2",
+              "id": "15e4f1cc-789c-4a97-bdd2-72afc2640fd2",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3824,7 +3817,7 @@
                   }
                 }
               ],
-              "_postman_id": "7363ebdb-c937-43dd-8d81-a457bfeac266",
+              "id": "7363ebdb-c937-43dd-8d81-a457bfeac266",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3896,7 +3889,7 @@
                   }
                 }
               ],
-              "_postman_id": "5796b0ab-f4c2-474f-beec-2d200d9a8b4b",
+              "id": "5796b0ab-f4c2-474f-beec-2d200d9a8b4b",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -3992,7 +3985,7 @@
                   }
                 }
               ],
-              "_postman_id": "d6e66695-027e-4a7d-b9ce-7fcba32ce52b",
+              "id": "d6e66695-027e-4a7d-b9ce-7fcba32ce52b",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -4079,7 +4072,7 @@
                   }
                 }
               ],
-              "_postman_id": "f6a36b8e-32e4-4c29-9acd-cebf7228eb29",
+              "id": "f6a36b8e-32e4-4c29-9acd-cebf7228eb29",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -4147,7 +4140,7 @@
                   }
                 }
               ],
-              "_postman_id": "d3541879-4e96-491c-b7a8-c648551d44c7",
+              "id": "d3541879-4e96-491c-b7a8-c648551d44c7",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -4195,8 +4188,7 @@
               "response": []
             }
           ],
-          "_postman_id": "82738db6-ea9d-4994-8f72-4161d0c8a824",
-          "_postman_isSubFolder": true
+          "id": "82738db6-ea9d-4994-8f72-4161d0c8a824"
         },
         {
           "name": "Check out flow - Duplicate Card Place Order",
@@ -4230,7 +4222,7 @@
                   }
                 }
               ],
-              "_postman_id": "b721f290-3e20-48bc-bb9c-cc9907bef351",
+              "id": "b721f290-3e20-48bc-bb9c-cc9907bef351",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -4323,7 +4315,7 @@
                   }
                 }
               ],
-              "_postman_id": "c6e190ce-bd82-4e6c-9f5e-06ab900fda02",
+              "id": "c6e190ce-bd82-4e6c-9f5e-06ab900fda02",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -4393,7 +4385,7 @@
                   }
                 }
               ],
-              "_postman_id": "c4bf1558-21f3-4008-bcda-77d0fffb1910",
+              "id": "c4bf1558-21f3-4008-bcda-77d0fffb1910",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -4466,7 +4458,7 @@
                   }
                 }
               ],
-              "_postman_id": "cbc3ceb4-41be-4e42-8682-5e923d6a5b59",
+              "id": "cbc3ceb4-41be-4e42-8682-5e923d6a5b59",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -4533,7 +4525,7 @@
                   }
                 }
               ],
-              "_postman_id": "cf2647ae-93d3-4afb-a83b-16a9a5d902d6",
+              "id": "cf2647ae-93d3-4afb-a83b-16a9a5d902d6",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -4603,7 +4595,7 @@
                   }
                 }
               ],
-              "_postman_id": "6569b5d1-afcb-4cdf-9335-9730dbe3e0f5",
+              "id": "6569b5d1-afcb-4cdf-9335-9730dbe3e0f5",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -4678,7 +4670,7 @@
                   }
                 }
               ],
-              "_postman_id": "749b7b6d-09e9-491e-ad75-a695fedcc3d9",
+              "id": "749b7b6d-09e9-491e-ad75-a695fedcc3d9",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -4754,7 +4746,7 @@
                   }
                 }
               ],
-              "_postman_id": "d0cbfafa-0345-43fc-a49e-b5afffceb673",
+              "id": "d0cbfafa-0345-43fc-a49e-b5afffceb673",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -4847,7 +4839,7 @@
                   }
                 }
               ],
-              "_postman_id": "921c3266-c350-4c40-a7e4-0ccff85a6653",
+              "id": "921c3266-c350-4c40-a7e4-0ccff85a6653",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -4918,7 +4910,7 @@
                   }
                 }
               ],
-              "_postman_id": "3fd3db10-0c43-429f-9954-97c79780bc60",
+              "id": "3fd3db10-0c43-429f-9954-97c79780bc60",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -4971,8 +4963,7 @@
               "response": []
             }
           ],
-          "_postman_id": "636eb74e-be0c-4a00-a668-862f4961181a",
-          "_postman_isSubFolder": true
+          "id": "636eb74e-be0c-4a00-a668-862f4961181a"
         },
         {
           "name": "Check Out flow - Transient Card",
@@ -5012,7 +5003,7 @@
                   }
                 }
               ],
-              "_postman_id": "79ce7333-e999-4d67-a7c2-b43d1005adb8",
+              "id": "79ce7333-e999-4d67-a7c2-b43d1005adb8",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -5105,7 +5096,7 @@
                   }
                 }
               ],
-              "_postman_id": "c21af869-839d-4ae9-87f4-fe7a7a85a341",
+              "id": "c21af869-839d-4ae9-87f4-fe7a7a85a341",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -5174,7 +5165,7 @@
                   }
                 }
               ],
-              "_postman_id": "c8f421c4-0493-4204-b1a5-7b5c51216ba7",
+              "id": "c8f421c4-0493-4204-b1a5-7b5c51216ba7",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -5244,7 +5235,7 @@
                   }
                 }
               ],
-              "_postman_id": "2ca20f9a-3d2f-417d-a021-4d9a8e3c7a0f",
+              "id": "2ca20f9a-3d2f-417d-a021-4d9a8e3c7a0f",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -5330,7 +5321,7 @@
                   }
                 }
               ],
-              "_postman_id": "e8350b5c-84fd-4a10-a762-72d45c1c359a",
+              "id": "e8350b5c-84fd-4a10-a762-72d45c1c359a",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -5431,7 +5422,7 @@
                   }
                 }
               ],
-              "_postman_id": "53c22f7a-29d1-4605-8c8f-cb20b6b33956",
+              "id": "53c22f7a-29d1-4605-8c8f-cb20b6b33956",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -5525,7 +5516,7 @@
                   }
                 }
               ],
-              "_postman_id": "f37d53ed-2ab6-4642-916a-a336cff6cb31",
+              "id": "f37d53ed-2ab6-4642-916a-a336cff6cb31",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -5662,7 +5653,7 @@
                   }
                 }
               ],
-              "_postman_id": "d290b952-f971-44a8-83aa-32bb57a798d2",
+              "id": "d290b952-f971-44a8-83aa-32bb57a798d2",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -5753,7 +5744,7 @@
                   }
                 }
               ],
-              "_postman_id": "44ca1171-8c51-41e0-a99f-6a42be937511",
+              "id": "44ca1171-8c51-41e0-a99f-6a42be937511",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -5806,8 +5797,7 @@
               "response": []
             }
           ],
-          "_postman_id": "c11f3f6b-827a-4cc2-800e-23c39734e58f",
-          "_postman_isSubFolder": true
+          "id": "c11f3f6b-827a-4cc2-800e-23c39734e58f"
         },
         {
           "name": "Checkout out flow - Transcient Card- Duplicate",
@@ -5847,7 +5837,7 @@
                   }
                 }
               ],
-              "_postman_id": "b6cfb852-4d75-4c63-ba4d-f95fbd412b45",
+              "id": "b6cfb852-4d75-4c63-ba4d-f95fbd412b45",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -5940,7 +5930,7 @@
                   }
                 }
               ],
-              "_postman_id": "44f20387-f1c9-4077-8903-d0a6bd6cf509",
+              "id": "44f20387-f1c9-4077-8903-d0a6bd6cf509",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -6008,7 +5998,7 @@
                   }
                 }
               ],
-              "_postman_id": "d65ee4ba-71f1-43b8-921e-fc6ad1f7fa92",
+              "id": "d65ee4ba-71f1-43b8-921e-fc6ad1f7fa92",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -6080,7 +6070,7 @@
                   }
                 }
               ],
-              "_postman_id": "e7cf422f-bbc2-48c9-8e40-e312a5f07721",
+              "id": "e7cf422f-bbc2-48c9-8e40-e312a5f07721",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -6148,7 +6138,7 @@
                   }
                 }
               ],
-              "_postman_id": "1d398ffb-83df-4208-93a4-627f682a3219",
+              "id": "1d398ffb-83df-4208-93a4-627f682a3219",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -6216,7 +6206,7 @@
                   }
                 }
               ],
-              "_postman_id": "9789da0c-9699-4d5e-a44e-df3f3bdc3d8c",
+              "id": "9789da0c-9699-4d5e-a44e-df3f3bdc3d8c",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -6292,7 +6282,7 @@
                   }
                 }
               ],
-              "_postman_id": "d79ef4ce-51b0-4416-9db0-a2dae52eab35",
+              "id": "d79ef4ce-51b0-4416-9db0-a2dae52eab35",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -6369,7 +6359,7 @@
                   }
                 }
               ],
-              "_postman_id": "550b2d55-0984-4758-b0fb-119df173606b",
+              "id": "550b2d55-0984-4758-b0fb-119df173606b",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -6464,7 +6454,7 @@
                   }
                 }
               ],
-              "_postman_id": "145060a8-eb1f-456a-a030-09167d43c1f2",
+              "id": "145060a8-eb1f-456a-a030-09167d43c1f2",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -6535,7 +6525,7 @@
                   }
                 }
               ],
-              "_postman_id": "67e903ab-8620-42b4-a25c-24760c2f0d10",
+              "id": "67e903ab-8620-42b4-a25c-24760c2f0d10",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -6588,8 +6578,7 @@
               "response": []
             }
           ],
-          "_postman_id": "27b36c58-12af-495e-8e50-e51274bcccee",
-          "_postman_isSubFolder": true
+          "id": "27b36c58-12af-495e-8e50-e51274bcccee"
         },
         {
           "name": "Check Out flow - Saved Card",
@@ -6629,7 +6618,7 @@
                   }
                 }
               ],
-              "_postman_id": "f61f3bf5-205f-42ea-a824-eda7fd3eeec0",
+              "id": "f61f3bf5-205f-42ea-a824-eda7fd3eeec0",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -6717,7 +6706,7 @@
                   }
                 }
               ],
-              "_postman_id": "4c1656f4-6fe4-4f88-8200-2b18880b1454",
+              "id": "4c1656f4-6fe4-4f88-8200-2b18880b1454",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -6787,7 +6776,7 @@
                   }
                 }
               ],
-              "_postman_id": "9a57ee75-3896-47ce-8a23-dd660f92fb0d",
+              "id": "9a57ee75-3896-47ce-8a23-dd660f92fb0d",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -6860,7 +6849,7 @@
                   }
                 }
               ],
-              "_postman_id": "47f0ecba-26e6-4b59-98c6-c0846176f2e6",
+              "id": "47f0ecba-26e6-4b59-98c6-c0846176f2e6",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -6934,7 +6923,7 @@
                   }
                 }
               ],
-              "_postman_id": "097bc288-1450-4db4-a893-8f99cddd8656",
+              "id": "097bc288-1450-4db4-a893-8f99cddd8656",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7025,7 +7014,7 @@
                   }
                 }
               ],
-              "_postman_id": "c31758c9-f356-48bb-afda-981637934d9c",
+              "id": "c31758c9-f356-48bb-afda-981637934d9c",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7105,7 +7094,7 @@
                   }
                 }
               ],
-              "_postman_id": "95bfff5a-fab2-4acd-858f-8c452db55af6",
+              "id": "95bfff5a-fab2-4acd-858f-8c452db55af6",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7196,7 +7185,7 @@
                   }
                 }
               ],
-              "_postman_id": "11d80633-a829-4a13-8dc2-72caf3140462",
+              "id": "11d80633-a829-4a13-8dc2-72caf3140462",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7279,7 +7268,7 @@
                   }
                 }
               ],
-              "_postman_id": "b6f64d63-4ee2-4426-bf35-1ac15f268803",
+              "id": "b6f64d63-4ee2-4426-bf35-1ac15f268803",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7332,8 +7321,7 @@
               "response": []
             }
           ],
-          "_postman_id": "a3b81de0-d755-4249-ad1a-ab0a45e1dd67",
-          "_postman_isSubFolder": true
+          "id": "a3b81de0-d755-4249-ad1a-ab0a45e1dd67"
         },
         {
           "name": "Create Payment Agreement - New Card With no immediate charge",
@@ -7373,7 +7361,7 @@
                   }
                 }
               ],
-              "_postman_id": "98510eca-8ead-4a1e-ab32-10ee67f450b9",
+              "id": "98510eca-8ead-4a1e-ab32-10ee67f450b9",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7461,7 +7449,7 @@
                   }
                 }
               ],
-              "_postman_id": "cce027c0-1970-4e74-b63c-8b67e3980788",
+              "id": "cce027c0-1970-4e74-b63c-8b67e3980788",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7532,7 +7520,7 @@
                   }
                 }
               ],
-              "_postman_id": "adf0c9e7-1a91-4a82-bd74-ccedfa4c59da",
+              "id": "adf0c9e7-1a91-4a82-bd74-ccedfa4c59da",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7611,7 +7599,7 @@
                   }
                 }
               ],
-              "_postman_id": "a28627a8-02de-4451-b7a4-3e58598ea61e",
+              "id": "a28627a8-02de-4451-b7a4-3e58598ea61e",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7691,7 +7679,7 @@
                   }
                 }
               ],
-              "_postman_id": "0def9919-6c6c-4f8d-a831-a64c5eb1e27c",
+              "id": "0def9919-6c6c-4f8d-a831-a64c5eb1e27c",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7769,7 +7757,7 @@
                   }
                 }
               ],
-              "_postman_id": "57f9b8d5-85ca-4b59-a886-416015f5d6df",
+              "id": "57f9b8d5-85ca-4b59-a886-416015f5d6df",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7850,7 +7838,7 @@
                   }
                 }
               ],
-              "_postman_id": "61c6192a-2dc4-4cfd-afb5-524697b3dcf4",
+              "id": "61c6192a-2dc4-4cfd-afb5-524697b3dcf4",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -7903,8 +7891,7 @@
               "response": []
             }
           ],
-          "_postman_id": "2c691182-8bee-47e8-a5cf-263303d16afb",
-          "_postman_isSubFolder": true
+          "id": "2c691182-8bee-47e8-a5cf-263303d16afb"
         },
         {
           "name": "Create Payment Agreement - Duplicate card With no immediate payment",
@@ -7945,7 +7932,7 @@
                   }
                 }
               ],
-              "_postman_id": "f0d21f7a-c8ee-4de5-ac14-2ecb4e9f47b9",
+              "id": "f0d21f7a-c8ee-4de5-ac14-2ecb4e9f47b9",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8026,7 +8013,7 @@
                   }
                 }
               ],
-              "_postman_id": "ec0b2477-ece0-4ab4-b46c-2aa79f458345",
+              "id": "ec0b2477-ece0-4ab4-b46c-2aa79f458345",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8100,7 +8087,7 @@
                   }
                 }
               ],
-              "_postman_id": "fc817811-dfdc-4237-9af2-d3e6bab3f39e",
+              "id": "fc817811-dfdc-4237-9af2-d3e6bab3f39e",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8179,7 +8166,7 @@
                   }
                 }
               ],
-              "_postman_id": "90a7e626-ab0f-4ec7-b502-7832cc33b71d",
+              "id": "90a7e626-ab0f-4ec7-b502-7832cc33b71d",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8260,7 +8247,7 @@
                   }
                 }
               ],
-              "_postman_id": "1b460027-2721-46f2-8eb0-390424854373",
+              "id": "1b460027-2721-46f2-8eb0-390424854373",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8343,7 +8330,7 @@
                   }
                 }
               ],
-              "_postman_id": "b4b00714-51e1-4d0a-9999-51ef106ac0ad",
+              "id": "b4b00714-51e1-4d0a-9999-51ef106ac0ad",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8416,7 +8403,7 @@
                   }
                 }
               ],
-              "_postman_id": "cc999d91-293b-45f1-8ea6-725fea6255be",
+              "id": "cc999d91-293b-45f1-8ea6-725fea6255be",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8491,7 +8478,7 @@
                   }
                 }
               ],
-              "_postman_id": "8e6963ba-e555-4a37-8fe5-3c957e37f7e1",
+              "id": "8e6963ba-e555-4a37-8fe5-3c957e37f7e1",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8572,7 +8559,7 @@
                   }
                 }
               ],
-              "_postman_id": "e9abb89d-c596-4139-8f51-ff371d82b708",
+              "id": "e9abb89d-c596-4139-8f51-ff371d82b708",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8652,7 +8639,7 @@
                   }
                 }
               ],
-              "_postman_id": "52843711-a9bd-4b7a-8c51-257d712f90a1",
+              "id": "52843711-a9bd-4b7a-8c51-257d712f90a1",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8728,7 +8715,7 @@
                   }
                 }
               ],
-              "_postman_id": "cce21fa4-d931-4991-a565-ee5b337758b1",
+              "id": "cce21fa4-d931-4991-a565-ee5b337758b1",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8809,7 +8796,7 @@
                   }
                 }
               ],
-              "_postman_id": "3b2a0d6e-9989-43bd-9ecd-d13d5301bdd8",
+              "id": "3b2a0d6e-9989-43bd-9ecd-d13d5301bdd8",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8862,8 +8849,7 @@
               "response": []
             }
           ],
-          "_postman_id": "0f504e23-3572-46e8-93c7-97d88b025202",
-          "_postman_isSubFolder": true
+          "id": "0f504e23-3572-46e8-93c7-97d88b025202"
         },
         {
           "name": "Create Payment Agreement - New Card With immediate charge",
@@ -8903,7 +8889,7 @@
                   }
                 }
               ],
-              "_postman_id": "0d819622-3f71-40e1-801d-ecc89ca2164b",
+              "id": "0d819622-3f71-40e1-801d-ecc89ca2164b",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -8991,7 +8977,7 @@
                   }
                 }
               ],
-              "_postman_id": "76563006-07e6-4d71-a6da-c46694a1d1bd",
+              "id": "76563006-07e6-4d71-a6da-c46694a1d1bd",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -9062,7 +9048,7 @@
                   }
                 }
               ],
-              "_postman_id": "1c9ee8c2-2243-42a5-be0f-b5620f5f5353",
+              "id": "1c9ee8c2-2243-42a5-be0f-b5620f5f5353",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -9141,7 +9127,7 @@
                   }
                 }
               ],
-              "_postman_id": "db5b0776-6dd2-44b7-9c65-ce194a66439d",
+              "id": "db5b0776-6dd2-44b7-9c65-ce194a66439d",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -9230,7 +9216,7 @@
                   }
                 }
               ],
-              "_postman_id": "49dd4964-a949-4a72-a3d8-f261f0f551ec",
+              "id": "49dd4964-a949-4a72-a3d8-f261f0f551ec",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -9305,7 +9291,7 @@
                   }
                 }
               ],
-              "_postman_id": "09d6621d-a256-410b-9918-a74810374e02",
+              "id": "09d6621d-a256-410b-9918-a74810374e02",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -9394,7 +9380,7 @@
                   }
                 }
               ],
-              "_postman_id": "b87cfcaa-1d45-481d-b883-f3d55be55d56",
+              "id": "b87cfcaa-1d45-481d-b883-f3d55be55d56",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -9524,7 +9510,7 @@
                   }
                 }
               ],
-              "_postman_id": "626cbf9d-0b52-4ec8-a2cd-926e6148117b",
+              "id": "626cbf9d-0b52-4ec8-a2cd-926e6148117b",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -9622,7 +9608,7 @@
                   }
                 }
               ],
-              "_postman_id": "f52ef41b-c428-4b2d-9287-638b388af437",
+              "id": "f52ef41b-c428-4b2d-9287-638b388af437",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -9675,8 +9661,7 @@
               "response": []
             }
           ],
-          "_postman_id": "c4e39ba5-b8a8-43ce-89be-90812ea6f300",
-          "_postman_isSubFolder": true
+          "id": "c4e39ba5-b8a8-43ce-89be-90812ea6f300"
         },
         {
           "name": "Create Payment Agreement - Duplicate card With immediate payment",
@@ -9719,7 +9704,7 @@
                   }
                 }
               ],
-              "_postman_id": "22de77ec-f6bd-45b1-8787-2723d4b263cc",
+              "id": "22de77ec-f6bd-45b1-8787-2723d4b263cc",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -9802,7 +9787,7 @@
                   }
                 }
               ],
-              "_postman_id": "419377ff-f345-40d3-963d-4491ac0c05cd",
+              "id": "419377ff-f345-40d3-963d-4491ac0c05cd",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -9878,7 +9863,7 @@
                   }
                 }
               ],
-              "_postman_id": "a31cd7c2-d3d2-41c6-a7f6-3ddfcd36c521",
+              "id": "a31cd7c2-d3d2-41c6-a7f6-3ddfcd36c521",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -9957,7 +9942,7 @@
                   }
                 }
               ],
-              "_postman_id": "d3be9c53-8308-4857-aec4-d2b300786473",
+              "id": "d3be9c53-8308-4857-aec4-d2b300786473",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -10041,7 +10026,7 @@
                   }
                 }
               ],
-              "_postman_id": "ee5c7b22-b3f2-4ed3-9268-acd57025ca5f",
+              "id": "ee5c7b22-b3f2-4ed3-9268-acd57025ca5f",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -10114,7 +10099,7 @@
                   }
                 }
               ],
-              "_postman_id": "45275b4b-f605-4f36-8c08-d301977b9a66",
+              "id": "45275b4b-f605-4f36-8c08-d301977b9a66",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -10189,7 +10174,7 @@
                   }
                 }
               ],
-              "_postman_id": "8be93291-1530-4e32-9c19-0e6c42c79b5c",
+              "id": "8be93291-1530-4e32-9c19-0e6c42c79b5c",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -10270,7 +10255,7 @@
                   }
                 }
               ],
-              "_postman_id": "11489c7f-118c-4664-baf1-0492d787fcdc",
+              "id": "11489c7f-118c-4664-baf1-0492d787fcdc",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -10359,7 +10344,7 @@
                   }
                 }
               ],
-              "_postman_id": "995e90c0-6ec7-42b0-b08b-db9c091e5150",
+              "id": "995e90c0-6ec7-42b0-b08b-db9c091e5150",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -10435,7 +10420,7 @@
                   }
                 }
               ],
-              "_postman_id": "040830b4-c6e7-444b-a0fb-743c280fc723",
+              "id": "040830b4-c6e7-444b-a0fb-743c280fc723",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -10532,7 +10517,7 @@
                   }
                 }
               ],
-              "_postman_id": "9b433371-1a14-426b-981f-4d3e69fa5fa2",
+              "id": "9b433371-1a14-426b-981f-4d3e69fa5fa2",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -10626,7 +10611,7 @@
                   }
                 }
               ],
-              "_postman_id": "a73d78a4-5d91-42df-8f07-6abfe98e77f3",
+              "id": "a73d78a4-5d91-42df-8f07-6abfe98e77f3",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -10679,8 +10664,7 @@
               "response": []
             }
           ],
-          "_postman_id": "1d25a396-e823-4318-8e2c-157d7b493e14",
-          "_postman_isSubFolder": true
+          "id": "1d25a396-e823-4318-8e2c-157d7b493e14"
         },
         {
           "name": "Update Payment Agreement - Funding instrument update(UNVERIFIED Card)",
@@ -10720,7 +10704,7 @@
                   }
                 }
               ],
-              "_postman_id": "20c4a235-b3db-4526-8ebd-75a1e59146ed",
+              "id": "20c4a235-b3db-4526-8ebd-75a1e59146ed",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -10808,7 +10792,7 @@
                   }
                 }
               ],
-              "_postman_id": "5557e88a-a304-4d91-aa3f-df4ffec2456a",
+              "id": "5557e88a-a304-4d91-aa3f-df4ffec2456a",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -10879,7 +10863,7 @@
                   }
                 }
               ],
-              "_postman_id": "15ab1b53-a3fe-4161-85e2-eb32b2693f58",
+              "id": "15ab1b53-a3fe-4161-85e2-eb32b2693f58",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -10958,7 +10942,7 @@
                   }
                 }
               ],
-              "_postman_id": "0a54766f-a37c-496d-ad94-e66a83e1679a",
+              "id": "0a54766f-a37c-496d-ad94-e66a83e1679a",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -11039,7 +11023,7 @@
                   }
                 }
               ],
-              "_postman_id": "648e72a1-e4a7-4c88-8b25-3c3cbc972e44",
+              "id": "648e72a1-e4a7-4c88-8b25-3c3cbc972e44",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -11118,7 +11102,7 @@
                   }
                 }
               ],
-              "_postman_id": "45f08b61-b2cf-4a77-8705-936493bbf69b",
+              "id": "45f08b61-b2cf-4a77-8705-936493bbf69b",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -11192,7 +11176,7 @@
                   }
                 }
               ],
-              "_postman_id": "a27c294d-6476-4d58-9250-84ac2be2a2ff",
+              "id": "a27c294d-6476-4d58-9250-84ac2be2a2ff",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -11267,7 +11251,7 @@
                   }
                 }
               ],
-              "_postman_id": "710938b2-1b25-4147-84c8-c51258f23062",
+              "id": "710938b2-1b25-4147-84c8-c51258f23062",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -11344,7 +11328,7 @@
                   }
                 }
               ],
-              "_postman_id": "5a668de6-f93c-43ef-be83-74488a2b7b59",
+              "id": "5a668de6-f93c-43ef-be83-74488a2b7b59",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -11424,7 +11408,7 @@
                   }
                 }
               ],
-              "_postman_id": "07c15bb2-b92f-4188-9084-939b486c3c62",
+              "id": "07c15bb2-b92f-4188-9084-939b486c3c62",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -11505,7 +11489,7 @@
                   }
                 }
               ],
-              "_postman_id": "46b63e58-c92d-4ba7-a1a1-18da60bdc3b6",
+              "id": "46b63e58-c92d-4ba7-a1a1-18da60bdc3b6",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -11558,8 +11542,7 @@
               "response": []
             }
           ],
-          "_postman_id": "a6bcb048-6d57-49cc-8f02-3c20087d45f6",
-          "_postman_isSubFolder": true
+          "id": "a6bcb048-6d57-49cc-8f02-3c20087d45f6"
         },
         {
           "name": "Update Payment Agreement - Funding instrument update(VERIFIED Card)",
@@ -11599,7 +11582,7 @@
                   }
                 }
               ],
-              "_postman_id": "81f0892b-1908-4af2-853b-528a036507ef",
+              "id": "81f0892b-1908-4af2-853b-528a036507ef",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -11687,7 +11670,7 @@
                   }
                 }
               ],
-              "_postman_id": "4ff64cb5-f099-4a23-a2e0-84b576b24f46",
+              "id": "4ff64cb5-f099-4a23-a2e0-84b576b24f46",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -11758,7 +11741,7 @@
                   }
                 }
               ],
-              "_postman_id": "b4a14b3c-12ac-4012-9d6c-59f86d06a037",
+              "id": "b4a14b3c-12ac-4012-9d6c-59f86d06a037",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -11837,7 +11820,7 @@
                   }
                 }
               ],
-              "_postman_id": "b039b332-d185-40bc-bfce-8499405e3060",
+              "id": "b039b332-d185-40bc-bfce-8499405e3060",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -11918,7 +11901,7 @@
                   }
                 }
               ],
-              "_postman_id": "21096294-5647-48c6-8722-f243c5892901",
+              "id": "21096294-5647-48c6-8722-f243c5892901",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -11990,7 +11973,7 @@
                   }
                 }
               ],
-              "_postman_id": "d526647c-ea94-4031-b452-96ea09cd8e4a",
+              "id": "d526647c-ea94-4031-b452-96ea09cd8e4a",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -12064,7 +12047,7 @@
                   }
                 }
               ],
-              "_postman_id": "271f07fc-80e3-434f-8234-47f747c0c5ea",
+              "id": "271f07fc-80e3-434f-8234-47f747c0c5ea",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -12139,7 +12122,7 @@
                   }
                 }
               ],
-              "_postman_id": "38a7bb6c-916e-462b-90af-15fa035f1219",
+              "id": "38a7bb6c-916e-462b-90af-15fa035f1219",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -12213,7 +12196,7 @@
                   }
                 }
               ],
-              "_postman_id": "af05eb81-6eab-4839-b531-1a7ce8b56010",
+              "id": "af05eb81-6eab-4839-b531-1a7ce8b56010",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -12285,7 +12268,7 @@
                   }
                 }
               ],
-              "_postman_id": "9cfd8975-fb6b-4638-bb62-bfc82078a5d1",
+              "id": "9cfd8975-fb6b-4638-bb62-bfc82078a5d1",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -12362,7 +12345,7 @@
                   }
                 }
               ],
-              "_postman_id": "e5d56584-dd96-4702-baf9-eb2ff35851e4",
+              "id": "e5d56584-dd96-4702-baf9-eb2ff35851e4",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -12442,7 +12425,7 @@
                   }
                 }
               ],
-              "_postman_id": "d9916553-9bab-41f8-8991-46168bfc689c",
+              "id": "d9916553-9bab-41f8-8991-46168bfc689c",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -12523,7 +12506,7 @@
                   }
                 }
               ],
-              "_postman_id": "600ec20c-763a-44ae-a858-7432e99a4b7f",
+              "id": "600ec20c-763a-44ae-a858-7432e99a4b7f",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -12576,8 +12559,7 @@
               "response": []
             }
           ],
-          "_postman_id": "1ea9308c-8ee6-4dea-a0ae-97ee053c0cd7",
-          "_postman_isSubFolder": true
+          "id": "1ea9308c-8ee6-4dea-a0ae-97ee053c0cd7"
         },
         {
           "name": "Charge Payment Agreement",
@@ -12617,7 +12599,7 @@
                   }
                 }
               ],
-              "_postman_id": "8cef1e82-fda0-4d54-9cc8-87d9cdaa2d9b",
+              "id": "8cef1e82-fda0-4d54-9cc8-87d9cdaa2d9b",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -12705,7 +12687,7 @@
                   }
                 }
               ],
-              "_postman_id": "abd726a9-d50b-4d5f-9f5a-e64eb0c6c506",
+              "id": "abd726a9-d50b-4d5f-9f5a-e64eb0c6c506",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -12776,7 +12758,7 @@
                   }
                 }
               ],
-              "_postman_id": "6766053b-0a2a-49ee-a435-edd740eabc5e",
+              "id": "6766053b-0a2a-49ee-a435-edd740eabc5e",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -12853,7 +12835,7 @@
                   }
                 }
               ],
-              "_postman_id": "9df1f7fd-67f4-49b5-b9c0-6eee897e1b1a",
+              "id": "9df1f7fd-67f4-49b5-b9c0-6eee897e1b1a",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -12934,7 +12916,7 @@
                   }
                 }
               ],
-              "_postman_id": "ac53fbc1-d178-4515-91fd-b222fb5ab8af",
+              "id": "ac53fbc1-d178-4515-91fd-b222fb5ab8af",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -13009,7 +12991,7 @@
                   }
                 }
               ],
-              "_postman_id": "0c762fb3-91e3-4756-aa91-1bef5610dc69",
+              "id": "0c762fb3-91e3-4756-aa91-1bef5610dc69",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -13093,7 +13075,7 @@
                   }
                 }
               ],
-              "_postman_id": "ad7cb17e-efb4-4f2b-857c-684f00ce99a4",
+              "id": "ad7cb17e-efb4-4f2b-857c-684f00ce99a4",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -13174,7 +13156,7 @@
                   }
                 }
               ],
-              "_postman_id": "6255b5b6-8547-41fa-be2b-2afcd28deca7",
+              "id": "6255b5b6-8547-41fa-be2b-2afcd28deca7",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -13298,7 +13280,7 @@
                   }
                 }
               ],
-              "_postman_id": "0947e818-aa57-41d0-9bb5-fdda98e06645",
+              "id": "0947e818-aa57-41d0-9bb5-fdda98e06645",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -13353,8 +13335,7 @@
               "response": []
             }
           ],
-          "_postman_id": "2a8090f4-e374-4b3a-aa0e-3dd26658fb47",
-          "_postman_isSubFolder": true
+          "id": "2a8090f4-e374-4b3a-aa0e-3dd26658fb47"
         },
         {
           "name": "Delete Payment Agreement",
@@ -13394,7 +13375,7 @@
                   }
                 }
               ],
-              "_postman_id": "bedf47ad-5fd1-4337-91c9-49f96b9c01b6",
+              "id": "bedf47ad-5fd1-4337-91c9-49f96b9c01b6",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -13482,7 +13463,7 @@
                   }
                 }
               ],
-              "_postman_id": "75525aa2-3bde-4ecd-9727-492bc2a7a583",
+              "id": "75525aa2-3bde-4ecd-9727-492bc2a7a583",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -13553,7 +13534,7 @@
                   }
                 }
               ],
-              "_postman_id": "fe00196b-b4a8-492a-bf38-88453455a485",
+              "id": "fe00196b-b4a8-492a-bf38-88453455a485",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -13630,7 +13611,7 @@
                   }
                 }
               ],
-              "_postman_id": "34ca065e-510a-4be2-811b-d1f86f7b14c7",
+              "id": "34ca065e-510a-4be2-811b-d1f86f7b14c7",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -13711,7 +13692,7 @@
                   }
                 }
               ],
-              "_postman_id": "428ae09a-f28e-4221-998f-bdb28046623d",
+              "id": "428ae09a-f28e-4221-998f-bdb28046623d",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -13791,7 +13772,7 @@
                   }
                 }
               ],
-              "_postman_id": "9f8c2276-0754-4610-acbc-b9227efe4aec",
+              "id": "9f8c2276-0754-4610-acbc-b9227efe4aec",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -13868,7 +13849,7 @@
                   }
                 }
               ],
-              "_postman_id": "a1b19945-7709-46a7-8227-10ab1e26c060",
+              "id": "a1b19945-7709-46a7-8227-10ab1e26c060",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -13948,7 +13929,7 @@
                   }
                 }
               ],
-              "_postman_id": "51981a61-f506-4103-af02-49744e114c2e",
+              "id": "51981a61-f506-4103-af02-49744e114c2e",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -13986,8 +13967,7 @@
               "response": []
             }
           ],
-          "_postman_id": "f0260ddf-6736-42e0-8407-a87bedae218a",
-          "_postman_isSubFolder": true
+          "id": "f0260ddf-6736-42e0-8407-a87bedae218a"
         },
         {
           "name": "Preauth Verify And Fraud Check",
@@ -14027,7 +14007,7 @@
                   }
                 }
               ],
-              "_postman_id": "b63efa02-9bc4-4926-9bcb-3481e0055799",
+              "id": "b63efa02-9bc4-4926-9bcb-3481e0055799",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -14115,7 +14095,7 @@
                   }
                 }
               ],
-              "_postman_id": "c95d85a6-9815-41d3-bcb3-f82461d58079",
+              "id": "c95d85a6-9815-41d3-bcb3-f82461d58079",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -14189,7 +14169,7 @@
                   }
                 }
               ],
-              "_postman_id": "fb7c03f0-9f4c-4817-bf35-c2b94243b03a",
+              "id": "fb7c03f0-9f4c-4817-bf35-c2b94243b03a",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -14269,7 +14249,7 @@
                   }
                 }
               ],
-              "_postman_id": "8b15ec06-d3a1-4b8f-92aa-2e277493ed3c",
+              "id": "8b15ec06-d3a1-4b8f-92aa-2e277493ed3c",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -14339,7 +14319,7 @@
                   }
                 }
               ],
-              "_postman_id": "20dc9c89-1562-4323-882b-ac739c176366",
+              "id": "20dc9c89-1562-4323-882b-ac739c176366",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -14389,7 +14369,7 @@
                   }
                 }
               ],
-              "_postman_id": "7ccd7b10-8327-427d-8d36-2ff4078df1df",
+              "id": "7ccd7b10-8327-427d-8d36-2ff4078df1df",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -14411,10 +14391,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{\r\n\"clientReference\": \"TestReference{{$randomInt}}\",\r\n\"paymentInstruments\": [\r\n{\r\n\"paymentToken\": \"{{paymentToken}}\",\r\n\"stepUpToken\":\"{{stepUpToken}}\"\r\n    \r\n}\r\n],\r\n\"fraudPayload\": {   \r\n\"provider\": \"cybersource\",\r\n\"version\": \"CyberSourceTransaction_1.101\",\r\n\"format\": \"XML\",\r\n\"responseFormat\": \"XML\",\r\n\"message\": \"<?xml version=\\\"1.0\\\" encoding=\\\"Windows-1252\\\"?>\\r\\n<RequestMessage xmlns:xsd=\\\"http://www.w3.org/2001/XMLSchema\\\" xmlns:xsi=\\\"http://www.w3.org/2001/XMLSchema-instance\\\">\\r\\n  <merchantID>woolworths_online</merchantID>\\r\\n  <merchantReferenceCode>1234-26I1</merchantReferenceCode>\\r\\n  <billTo>\\r\\n    <firstName>AravindKumar</firstName>\\r\\n    <lastName>Gunasekaran</lastName>\\r\\n    <street1>210</street1>\\r\\n    <city>MINTO</city>\\r\\n    <state>NSW</state>\\r\\n    <postalCode>2566</postalCode>\\r\\n    <country>AU</country>\\r\\n    <phoneNumber>0469813438</phoneNumber>\\r\\n    <email>accept@accept.com</email>\\r\\n    <ipAddress>202.39.218.236</ipAddress>\\r\\n    <dateOfBirth>1987-02-14</dateOfBirth>\\r\\n    <customerID>3732442</customerID>\\r\\n  </billTo>\\r\\n  <shipTo>\\r\\n    <firstName>Pon</firstName>\\r\\n    <lastName>Malar</lastName>\\r\\n    <phoneNumber>0442911234</phoneNumber>\\r\\n    <email>accept@accept.com</email>\\r\\n  </shipTo>\\r\\n  <item id=\\\"0\\\">\\r\\n    <unitPrice>7.59</unitPrice>\\r\\n    <quantity>2</quantity>\\r\\n    <productName>Mccain Protein Plus Frozen Meal Satay Chicken</productName>\\r\\n    <productSKU>483660</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"1\\\">\\r\\n    <unitPrice>2.00</unitPrice>\\r\\n    <quantity>2</quantity>\\r\\n    <productName>Habee Savers Needles Household Repair</productName>\\r\\n    <productSKU>159489</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"2\\\">\\r\\n    <unitPrice>6.60</unitPrice>\\r\\n    <quantity>5</quantity>\\r\\n    <productName>Chicken Breast Fillet Skinless Small</productName>\\r\\n    <productSKU>118963</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"3\\\">\\r\\n    <unitPrice>5.43</unitPrice>\\r\\n    <quantity>5</quantity>\\r\\n    <productName>Chicken Drumsticks </productName>\\r\\n    <productSKU>169014</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"4\\\">\\r\\n    <unitPrice>3.50</unitPrice>\\r\\n    <quantity>4</quantity>\\r\\n    <productName>Chicken Thigh Cutlets Skinless</productName>\\r\\n    <productSKU>166830</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"5\\\">\\r\\n    <unitPrice>10.80</unitPrice>\\r\\n    <quantity>4</quantity>\\r\\n    <productName>Lamb Diced Heart Smart</productName>\\r\\n    <productSKU>208970</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"6\\\">\\r\\n    <unitPrice>4.94</unitPrice>\\r\\n    <quantity>2</quantity>\\r\\n    <productName>Macro Chicken Lovely Legs Free Range</productName>\\r\\n    <productSKU>700257</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"7\\\">\\r\\n    <unitPrice>19.64</unitPrice>\\r\\n    <quantity>2</quantity>\\r\\n    <productName>Macro Organic Whole Chicken</productName>\\r\\n    <productSKU>229320</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"8\\\">\\r\\n    <unitPrice>9.60</unitPrice>\\r\\n    <quantity>2</quantity>\\r\\n    <productName>Msa Australian Beef Steak Porterhouse</productName>\\r\\n    <productSKU>208988</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"9\\\">\\r\\n    <unitPrice>15.20</unitPrice>\\r\\n    <quantity>3</quantity>\\r\\n    <productName>Roast Pork Shoulder Boneless Small</productName>\\r\\n    <productSKU>203420</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"10\\\">\\r\\n    <unitPrice>10.80</unitPrice>\\r\\n    <quantity>2</quantity>\\r\\n    <productName>Select Corned Beef Silverside </productName>\\r\\n    <productSKU>148345</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"11\\\">\\r\\n    <unitPrice>13.00</unitPrice>\\r\\n    <quantity>2</quantity>\\r\\n    <productName>Clairol Nice N Easy 114a Natural Lightest Golden Brown</productName>\\r\\n    <productSKU>226536</productSKU>\\r\\n  </item>\\r\\n  <purchaseTotals>\\r\\n    <currency>AUD</currency>\\r\\n    <grandTotalAmount>298.09</grandTotalAmount>\\r\\n  </purchaseTotals>\\r\\n  <merchantDefinedData>\\r\\n    <mddField id=\\\"19\\\">Pickup</mddField>\\r\\n    <mddField id=\\\"10\\\">NO</mddField>\\r\\n    <mddField id=\\\"3\\\">Woolworths WOLLI CREEK, WOLLI CREEK</mddField>\\r\\n    <mddField id=\\\"1\\\">2017-09-22 16:00</mddField>\\r\\n    <mddField id=\\\"2\\\">NSW</mddField>\\r\\n    <mddField id=\\\"12\\\">NO</mddField>\\r\\n    <mddField id=\\\"16\\\">103</mddField>\\r\\n    <mddField id=\\\"23\\\"></mddField>\\r\\n    <mddField id=\\\"17\\\">2017-09-18 12:40</mddField>\\r\\n    <mddField id=\\\"18\\\">2017-09-18 12:40</mddField>\\r\\n    <mddField id=\\\"25\\\">2017-09-22 16:00</mddField>\\r\\n    <mddField id=\\\"20\\\">WEB</mddField>\\r\\n    <mddField id=\\\"57\\\">Normal</mddField>\\r\\n    <mddField id=\\\"58\\\"></mddField>\\r\\n    <mddField id=\\\"59\\\" />\\r\\n    <mddField id=\\\"60\\\">298.09</mddField>\\r\\n  </merchantDefinedData>\\r\\n  <afsService run=\\\"true\\\" />\\r\\n  <deviceFingerprintID>18SJBB-26IO8JUN</deviceFingerprintID>\\r\\n</RequestMessage>\"\r\n\r\n}\r\n}",
-                  "options": {
-                    "raw": {}
-                  }
+                  "raw": "{\r\n\"clientReference\": \"TestReference{{$randomInt}}\",\r\n\"paymentInstruments\": [\r\n{\r\n\"paymentToken\": \"{{paymentToken}}\",\r\n\"stepUpToken\":\"{{stepUpToken}}\"\r\n    \r\n}\r\n],\r\n\"fraudPayload\": {   \r\n\"provider\": \"cybersource\",\r\n\"version\": \"CyberSourceTransaction_1.101\",\r\n\"format\": \"XML\",\r\n\"responseFormat\": \"XML\",\r\n\"message\": \"<?xml version=\\\"1.0\\\" encoding=\\\"Windows-1252\\\"?>\\r\\n<RequestMessage xmlns:xsd=\\\"http://www.w3.org/2001/XMLSchema\\\" xmlns:xsi=\\\"http://www.w3.org/2001/XMLSchema-instance\\\">\\r\\n  <merchantID>woolworths_online</merchantID>\\r\\n  <merchantReferenceCode>1234-26I1</merchantReferenceCode>\\r\\n  <billTo>\\r\\n    <firstName>AravindKumar</firstName>\\r\\n    <lastName>Gunasekaran</lastName>\\r\\n    <street1>210</street1>\\r\\n    <city>MINTO</city>\\r\\n    <state>NSW</state>\\r\\n    <postalCode>2566</postalCode>\\r\\n    <country>AU</country>\\r\\n    <phoneNumber>0469813438</phoneNumber>\\r\\n    <email>accept@accept.com</email>\\r\\n    <ipAddress>202.39.218.236</ipAddress>\\r\\n    <dateOfBirth>1987-02-14</dateOfBirth>\\r\\n    <customerID>3732442</customerID>\\r\\n  </billTo>\\r\\n  <shipTo>\\r\\n    <firstName>Pon</firstName>\\r\\n    <lastName>Malar</lastName>\\r\\n    <phoneNumber>0442911234</phoneNumber>\\r\\n    <email>accept@accept.com</email>\\r\\n  </shipTo>\\r\\n  <item id=\\\"0\\\">\\r\\n    <unitPrice>7.59</unitPrice>\\r\\n    <quantity>2</quantity>\\r\\n    <productName>Mccain Protein Plus Frozen Meal Satay Chicken</productName>\\r\\n    <productSKU>483660</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"1\\\">\\r\\n    <unitPrice>2.00</unitPrice>\\r\\n    <quantity>2</quantity>\\r\\n    <productName>Habee Savers Needles Household Repair</productName>\\r\\n    <productSKU>159489</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"2\\\">\\r\\n    <unitPrice>6.60</unitPrice>\\r\\n    <quantity>5</quantity>\\r\\n    <productName>Chicken Breast Fillet Skinless Small</productName>\\r\\n    <productSKU>118963</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"3\\\">\\r\\n    <unitPrice>5.43</unitPrice>\\r\\n    <quantity>5</quantity>\\r\\n    <productName>Chicken Drumsticks </productName>\\r\\n    <productSKU>169014</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"4\\\">\\r\\n    <unitPrice>3.50</unitPrice>\\r\\n    <quantity>4</quantity>\\r\\n    <productName>Chicken Thigh Cutlets Skinless</productName>\\r\\n    <productSKU>166830</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"5\\\">\\r\\n    <unitPrice>10.80</unitPrice>\\r\\n    <quantity>4</quantity>\\r\\n    <productName>Lamb Diced Heart Smart</productName>\\r\\n    <productSKU>208970</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"6\\\">\\r\\n    <unitPrice>4.94</unitPrice>\\r\\n    <quantity>2</quantity>\\r\\n    <productName>Macro Chicken Lovely Legs Free Range</productName>\\r\\n    <productSKU>700257</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"7\\\">\\r\\n    <unitPrice>19.64</unitPrice>\\r\\n    <quantity>2</quantity>\\r\\n    <productName>Macro Organic Whole Chicken</productName>\\r\\n    <productSKU>229320</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"8\\\">\\r\\n    <unitPrice>9.60</unitPrice>\\r\\n    <quantity>2</quantity>\\r\\n    <productName>Msa Australian Beef Steak Porterhouse</productName>\\r\\n    <productSKU>208988</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"9\\\">\\r\\n    <unitPrice>15.20</unitPrice>\\r\\n    <quantity>3</quantity>\\r\\n    <productName>Roast Pork Shoulder Boneless Small</productName>\\r\\n    <productSKU>203420</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"10\\\">\\r\\n    <unitPrice>10.80</unitPrice>\\r\\n    <quantity>2</quantity>\\r\\n    <productName>Select Corned Beef Silverside </productName>\\r\\n    <productSKU>148345</productSKU>\\r\\n  </item>\\r\\n  <item id=\\\"11\\\">\\r\\n    <unitPrice>13.00</unitPrice>\\r\\n    <quantity>2</quantity>\\r\\n    <productName>Clairol Nice N Easy 114a Natural Lightest Golden Brown</productName>\\r\\n    <productSKU>226536</productSKU>\\r\\n  </item>\\r\\n  <purchaseTotals>\\r\\n    <currency>AUD</currency>\\r\\n    <grandTotalAmount>298.09</grandTotalAmount>\\r\\n  </purchaseTotals>\\r\\n  <merchantDefinedData>\\r\\n    <mddField id=\\\"19\\\">Pickup</mddField>\\r\\n    <mddField id=\\\"10\\\">NO</mddField>\\r\\n    <mddField id=\\\"3\\\">Woolworths WOLLI CREEK, WOLLI CREEK</mddField>\\r\\n    <mddField id=\\\"1\\\">2017-09-22 16:00</mddField>\\r\\n    <mddField id=\\\"2\\\">NSW</mddField>\\r\\n    <mddField id=\\\"12\\\">NO</mddField>\\r\\n    <mddField id=\\\"16\\\">103</mddField>\\r\\n    <mddField id=\\\"23\\\"></mddField>\\r\\n    <mddField id=\\\"17\\\">2017-09-18 12:40</mddField>\\r\\n    <mddField id=\\\"18\\\">2017-09-18 12:40</mddField>\\r\\n    <mddField id=\\\"25\\\">2017-09-22 16:00</mddField>\\r\\n    <mddField id=\\\"20\\\">WEB</mddField>\\r\\n    <mddField id=\\\"57\\\">Normal</mddField>\\r\\n    <mddField id=\\\"58\\\"></mddField>\\r\\n    <mddField id=\\\"59\\\" />\\r\\n    <mddField id=\\\"60\\\">298.09</mddField>\\r\\n  </merchantDefinedData>\\r\\n  <afsService run=\\\"true\\\" />\\r\\n  <deviceFingerprintID>18SJBB-26IO8JUN</deviceFingerprintID>\\r\\n</RequestMessage>\"\r\n\r\n}\r\n}"
                 },
                 "url": {
                   "raw": "{{Apigee Environment URL}}wow/v1/pay/instruments/verify?apikey={{WOWOL-APIKEY}}",
@@ -14476,7 +14453,7 @@
                   }
                 }
               ],
-              "_postman_id": "d9ad195c-f8eb-44d6-b771-47d2c99e0ffb",
+              "id": "d9ad195c-f8eb-44d6-b771-47d2c99e0ffb",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -14560,7 +14537,7 @@
                   }
                 }
               ],
-              "_postman_id": "f0f95c89-8343-49b7-856b-3fafc6777fc0",
+              "id": "f0f95c89-8343-49b7-856b-3fafc6777fc0",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -14613,8 +14590,7 @@
               "response": []
             }
           ],
-          "_postman_id": "1a58fe4b-4f19-410f-a94b-d54459801c3e",
-          "_postman_isSubFolder": true
+          "id": "1a58fe4b-4f19-410f-a94b-d54459801c3e"
         },
         {
           "name": "Check out flow-Split Payment with Saved CC+GC",
@@ -14654,7 +14630,7 @@
                   }
                 }
               ],
-              "_postman_id": "30b79899-9995-40c5-b316-936d6de56399",
+              "id": "30b79899-9995-40c5-b316-936d6de56399",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -14738,7 +14714,7 @@
                   }
                 }
               ],
-              "_postman_id": "b9bdee77-7f42-4a7e-b3eb-5acab050b97f",
+              "id": "b9bdee77-7f42-4a7e-b3eb-5acab050b97f",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -14829,7 +14805,7 @@
                   }
                 }
               ],
-              "_postman_id": "90b82345-a0b7-4eb0-b179-3e08c5dd2004",
+              "id": "90b82345-a0b7-4eb0-b179-3e08c5dd2004",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -14890,7 +14866,7 @@
                   }
                 }
               ],
-              "_postman_id": "9d62fe45-b94f-4502-a118-bbc85c2a2576",
+              "id": "9d62fe45-b94f-4502-a118-bbc85c2a2576",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -14986,7 +14962,7 @@
                   }
                 }
               ],
-              "_postman_id": "5af6c46b-7fb2-4de5-a6aa-b87e2c95c139",
+              "id": "5af6c46b-7fb2-4de5-a6aa-b87e2c95c139",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -15085,7 +15061,7 @@
                   }
                 }
               ],
-              "_postman_id": "da6127b6-9f78-4183-953c-258dcd35bcae",
+              "id": "da6127b6-9f78-4183-953c-258dcd35bcae",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -15195,7 +15171,7 @@
                   }
                 }
               ],
-              "_postman_id": "ac5c3949-1862-4638-99d8-28be76fb4510",
+              "id": "ac5c3949-1862-4638-99d8-28be76fb4510",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -15342,7 +15318,7 @@
                   }
                 }
               ],
-              "_postman_id": "384777d1-e44c-4715-9e7a-fc96eaa2eb93",
+              "id": "384777d1-e44c-4715-9e7a-fc96eaa2eb93",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -15434,7 +15410,7 @@
                   }
                 }
               ],
-              "_postman_id": "c0f7642d-416f-4635-8cb7-ee024f9326f9",
+              "id": "c0f7642d-416f-4635-8cb7-ee024f9326f9",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -15487,8 +15463,7 @@
               "response": []
             }
           ],
-          "_postman_id": "94fe189c-e125-4807-aa93-fc6fac1edd0b",
-          "_postman_isSubFolder": true
+          "id": "94fe189c-e125-4807-aa93-fc6fac1edd0b"
         },
         {
           "name": "Check out flow - Split Payment (CC + PP)",
@@ -15513,7 +15488,7 @@
                   }
                 }
               ],
-              "_postman_id": "14ea4ae7-74b2-4b23-9b53-318d1bed1d03",
+              "id": "14ea4ae7-74b2-4b23-9b53-318d1bed1d03",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -15598,7 +15573,7 @@
                   }
                 }
               ],
-              "_postman_id": "c94214c7-ff1c-4cda-8914-78236cbea735",
+              "id": "c94214c7-ff1c-4cda-8914-78236cbea735",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -15667,7 +15642,7 @@
                   }
                 }
               ],
-              "_postman_id": "9a417899-ecd6-4ab5-9853-1e5b07e37f0b",
+              "id": "9a417899-ecd6-4ab5-9853-1e5b07e37f0b",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -15740,7 +15715,7 @@
                   }
                 }
               ],
-              "_postman_id": "60245312-5e59-43d4-80e3-13b4e142cef0",
+              "id": "60245312-5e59-43d4-80e3-13b4e142cef0",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -15808,7 +15783,7 @@
                   }
                 }
               ],
-              "_postman_id": "7d1ae867-d41a-42f1-994e-f3d0bfb5b46e",
+              "id": "7d1ae867-d41a-42f1-994e-f3d0bfb5b46e",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -15874,7 +15849,7 @@
                   }
                 }
               ],
-              "_postman_id": "fa56716d-8615-47e2-892a-10f4d6f485c2",
+              "id": "fa56716d-8615-47e2-892a-10f4d6f485c2",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -15972,7 +15947,7 @@
                   }
                 }
               ],
-              "_postman_id": "256f91d9-b6e3-4e48-8e00-b68506f1391a",
+              "id": "256f91d9-b6e3-4e48-8e00-b68506f1391a",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -16083,7 +16058,7 @@
                   }
                 }
               ],
-              "_postman_id": "e4ba3ff8-c8e9-4f81-985a-8ad1f37ef318",
+              "id": "e4ba3ff8-c8e9-4f81-985a-8ad1f37ef318",
               "protocolProfileBehavior": {
                 "disableBodyPruning": true
               },
@@ -16136,73 +16111,62 @@
               "response": []
             }
           ],
-          "_postman_id": "6540778a-c4bd-4eca-b52c-719ea0cda598",
-          "_postman_isSubFolder": true
+          "id": "6540778a-c4bd-4eca-b52c-719ea0cda598"
         }
       ],
-      "_postman_id": "501e3c03-3375-4ac0-889a-db77d70b39b2"
+      "id": "501e3c03-3375-4ac0-889a-db77d70b39b2"
     }
   ],
   "variable": [
     {
-      "id": "71ec2b60-227f-4a2d-aea3-cf3e0cd7f1a7",
+      "id": "8c00cdab-7487-494e-8391-789feae96e5f",
       "key": "accessToken",
-      "value": "",
-      "type": "string"
+      "value": ""
     },
     {
-      "id": "113b6f96-70f8-430c-b3e7-bfab767b18f5",
+      "id": "5f895c0c-8f9b-4341-b2ba-d9d12d5a4b7b",
       "key": "creditCardItemID",
-      "value": "",
-      "type": "string"
+      "value": ""
     },
     {
-      "id": "7f94f48e-932e-4ce5-afda-c60942fc3613",
+      "id": "747e0180-1f92-4113-a4b5-e3e8057791d6",
       "key": "sessionID",
-      "value": "",
-      "type": "string"
+      "value": ""
     },
     {
-      "id": "4c6f29b2-7b05-404a-8508-956be5f177ee",
+      "id": "8a4d4e60-6463-47b1-87ac-910efc413c05",
       "key": "payPalItemID",
-      "value": "",
-      "type": "string"
+      "value": ""
     },
     {
-      "id": "ed24d4c9-de89-42db-b304-f3af397fbb7c",
+      "id": "16ea7094-0acb-450e-88ad-fe1cd0712571",
       "key": "creditCardTransactionRef",
-      "value": "",
-      "type": "string"
+      "value": ""
     },
     {
-      "id": "8f8604e9-d5c9-42cf-8fdf-c661b17977c7",
+      "id": "8312357c-6159-4c3e-b604-94572ac94f0c",
       "key": "payPalTransactionRef",
-      "value": "",
-      "type": "string"
+      "value": ""
     },
     {
-      "id": "14e48de7-dfa1-42fb-b6bf-a036d95d8881",
+      "id": "77b6526b-2030-4776-9395-931acfb605ff",
       "key": "suffix",
-      "value": "",
-      "type": "string"
+      "value": ""
     },
     {
-      "id": "4a36336a-5979-49d3-94a9-65b7169c9164",
+      "id": "35f2cc9c-cd4f-4dc8-89d2-ea1d5d22e377",
       "key": "bin",
-      "value": "",
-      "type": "string"
+      "value": ""
     },
     {
-      "id": "b52d69a9-3d30-4639-84aa-0d54a66dbc00",
+      "id": "b5b5b1a0-b46a-4f34-b004-547d27ab6fa0",
       "key": "payPalRefundRef",
-      "value": "",
-      "type": "string"
+      "value": ""
     },
     {
-      "id": "ca0e4a55-d94c-4eaa-9048-628d84fa9637",
+      "id": "4fede96c-503e-4c4f-9c2b-8b96894c7d67",
       "key": "creditCardRefundRef",
-      "value": "",
-      "type": "string"
+      "value": ""
     }
   ]
 }
