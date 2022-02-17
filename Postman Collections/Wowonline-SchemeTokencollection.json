@@ -62,7 +62,7 @@
                 ],
                 "body": {
                   "mode": "raw",
-                  "raw": "{ \r\n\t\"shopperId\": \"\",\r\n    \"username\": \"{{$timestamp}}\"\r\n}",
+                  "raw": "{ \r\n\t\"shopperId\": \"{{$randomInt}}{{$timestamp}}\",\r\n    \"username\": \"{{$timestamp}}\"\r\n}",
                   "options": {
                     "raw": {
                       "language": "json"
@@ -16119,52 +16119,52 @@
   ],
   "variable": [
     {
-      "id": "09e23efc-9634-4a30-a289-aab94b25ad67",
+      "id": "68a6cb52-4f4d-487d-b3fe-10578290b6e0",
       "key": "accessToken",
       "value": ""
     },
     {
-      "id": "bff0a5cf-0862-4bad-82c8-cd812ffce597",
+      "id": "85812ff3-7190-4df8-9817-5355e6e1d945",
       "key": "creditCardItemID",
       "value": ""
     },
     {
-      "id": "c186c26a-1b42-4566-8e30-02628403aac4",
+      "id": "ed9f37eb-bcf7-4539-9d99-7c1ac06a958f",
       "key": "sessionID",
       "value": ""
     },
     {
-      "id": "8c35205d-ce8f-4be3-b5e7-f31d8bda5b1f",
+      "id": "5c083f90-daad-42b8-a367-671170c424c6",
       "key": "payPalItemID",
       "value": ""
     },
     {
-      "id": "6f53ff93-7c39-4770-a870-37e4e5d09492",
+      "id": "04302db5-6a63-4eb5-985f-2ca1bebba453",
       "key": "creditCardTransactionRef",
       "value": ""
     },
     {
-      "id": "b5b83299-eeae-4b56-a98e-4e1f32addf2c",
+      "id": "22a92e42-3860-4e57-a497-371e234c6b39",
       "key": "payPalTransactionRef",
       "value": ""
     },
     {
-      "id": "2777a311-bf3c-4db7-8243-af1aebd0d1be",
+      "id": "61680c32-7059-4a48-9162-82ce93ddecd1",
       "key": "suffix",
       "value": ""
     },
     {
-      "id": "e77ac100-5162-4b2c-a761-823fe1ccbc3b",
+      "id": "d14a2e32-7532-4952-ab6a-c0f11c3e1265",
       "key": "bin",
       "value": ""
     },
     {
-      "id": "0c7054ad-7289-44fb-a1ea-320cb29db6e1",
+      "id": "1dde3095-ef2f-4600-b58f-5a49e26049a2",
       "key": "payPalRefundRef",
       "value": ""
     },
     {
-      "id": "79a55119-4cda-491c-868e-2b8998c681bd",
+      "id": "deb745a4-f116-4ab1-96c0-d524442332dc",
       "key": "creditCardRefundRef",
       "value": ""
     }
