@@ -104,11 +104,11 @@
                 {
                   "listen": "test",
                   "script": {
+                    "id": "504ed67a-0112-4a17-83c8-3f1a3e3bc829",
                     "exec": [
                       "pm.test(\"Verify the Merchant Profile call returns 200\", function () {\r",
                       "     try{\r",
-                      "    pm.response.to.have.status(200);\r",
-                      "   \r",
+                      "    pm.response.to.have.status(200);   \r",
                       "    }\r",
                       "    catch(e) {\r",
                       "        postman.setNextRequest();\r",
@@ -117,8 +117,7 @@
                       "});\r",
                       ""
                     ],
-                    "type": "text/javascript",
-                    "id": "504ed67a-0112-4a17-83c8-3f1a3e3bc829"
+                    "type": "text/javascript"
                   }
                 }
               ],
@@ -16119,52 +16118,52 @@
   ],
   "variable": [
     {
-      "id": "68a6cb52-4f4d-487d-b3fe-10578290b6e0",
+      "id": "567d725f-aa5e-485f-8c55-c59b79c4c186",
       "key": "accessToken",
       "value": ""
     },
     {
-      "id": "85812ff3-7190-4df8-9817-5355e6e1d945",
+      "id": "3f462611-b4d7-48ce-b548-44abb7f4efff",
       "key": "creditCardItemID",
       "value": ""
     },
     {
-      "id": "ed9f37eb-bcf7-4539-9d99-7c1ac06a958f",
+      "id": "130c4798-37c7-4be0-902f-94044fdb0367",
       "key": "sessionID",
       "value": ""
     },
     {
-      "id": "5c083f90-daad-42b8-a367-671170c424c6",
+      "id": "f29eb830-8a76-4c62-adf0-e61f119203ca",
       "key": "payPalItemID",
       "value": ""
     },
     {
-      "id": "04302db5-6a63-4eb5-985f-2ca1bebba453",
+      "id": "1f5e0500-62f3-4336-b8ca-abc8de1d644e",
       "key": "creditCardTransactionRef",
       "value": ""
     },
     {
-      "id": "22a92e42-3860-4e57-a497-371e234c6b39",
+      "id": "340ca5bb-046d-48c0-aba9-87115ac33fa0",
       "key": "payPalTransactionRef",
       "value": ""
     },
     {
-      "id": "61680c32-7059-4a48-9162-82ce93ddecd1",
+      "id": "ece89a4d-a813-4fd9-80b5-19b524bc1b7e",
       "key": "suffix",
       "value": ""
     },
     {
-      "id": "d14a2e32-7532-4952-ab6a-c0f11c3e1265",
+      "id": "f2b4c9b6-5767-4de0-8eb4-ffbad5b539fe",
       "key": "bin",
       "value": ""
     },
     {
-      "id": "1dde3095-ef2f-4600-b58f-5a49e26049a2",
+      "id": "1e3c1cd1-fe47-4eb2-84ed-d163c0ef64a1",
       "key": "payPalRefundRef",
       "value": ""
     },
     {
-      "id": "deb745a4-f116-4ab1-96c0-d524442332dc",
+      "id": "c804bf8f-5426-451a-8162-7162b2dba28d",
       "key": "creditCardRefundRef",
       "value": ""
     }
